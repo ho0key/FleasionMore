@@ -1,0 +1,3 @@
+gastrophobic/Rivals-dump
+2
+https://raw.githubusercontent.com/gastrophobic/Rivals/refs/heads/main/log.txt
