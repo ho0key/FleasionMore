@@ -2,17 +2,17 @@
   Fleasion+
 </h1>
 
-fleasion but with some additions:
-  PF quick access option
-  Texture packs(changes texture colors)
-  Remove kosaku model
-  Remove kosaku white dots
-  Remove z point model
-  Remove ballistics tracker
-  Cooler and smaller arms
-  More hitmarkers(pink heart and trollface)
-  Custom loading thumbnails(doesnt rly work)
-  Remove aug a3 sight screws
+fleasion but with some additions:<br/>
+ • PF quick access option<br/>
+ • Texture packs(changes texture colors)<br/>
+ • Remove kosaku model<br/>
+ • Remove kosaku white dots<br/>
+ • Remove z point model<br/>
+ • Remove ballistics tracker<br/>
+ • Cooler and smaller arms<br/>
+ • More hitmarkers(pink heart and trollface)<br/>
+ • Custom loading thumbnails(doesnt rly work)<br/>
+ • Remove aug a3 sight screws<br/>
 
 How to use :
 first download the normal fleasion and download the assets for phantom 
