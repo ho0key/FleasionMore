@@ -1,6 +1,6 @@
-<h3 align="center">
+<h1 align="center">
   Fleasion+
-</h3>
+</h1>
 fleasion but with some additions made by yours truly ho0key
 
 How to use :
@@ -14,10 +14,10 @@ DONE!!
 
 
 [![Video tutorial](https://img.youtube.com/vi/a05N6eGBXdc/hqdefault.jpg)](https://www.youtube.com/watch?v=a05N6eGBXdc)
-
-
+</h3>
+<p align="center">
 if you want anything added or got any issues feel free to dm me
 discord: ho0key
+</p>
 
 
-</h3>
