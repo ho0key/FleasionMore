@@ -1,8 +1,8 @@
 <h1 align="center">
   Fleasion+
 </h1>
-##
-##fleasion but with some additions:
+
+fleasion but with some additions:
   PF quick access option
   Texture packs(changes texture colors)
   Remove kosaku model
