@@ -16,7 +16,7 @@
 
 
 <h3 align="center">
-↓ Watch the video to find out how to use the mod ↓:
+↓ Watch the video to find out how to use the mod ↓
 
 
 [![Video tutorial](https://img.youtube.com/vi/a05N6eGBXdc/hqdefault.jpg)](https://www.youtube.com/watch?v=a05N6eGBXdc)
