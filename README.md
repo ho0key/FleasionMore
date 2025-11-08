@@ -14,15 +14,9 @@
  • Custom loading thumbnails(doesnt rly work)<br/>
  • Remove aug a3 sight screws<br/>
 
-## How to use :<br/>
-first download the normal fleasion and download the assets for phantom 
-then copy them into:
-fleasionMore/assets/games/phantom forces/cached_files
-you also need to copy the files inside "fleasionMore/assets/games/phantom forces/custom" over to  cached_files  
-DONE!!
 
 <h3 align="center">
-↓ Watch this video tutorial if you have any trouble ↓:
+↓ Watch the video to find out how to use the mod ↓:
 
 
 [![Video tutorial](https://img.youtube.com/vi/a05N6eGBXdc/hqdefault.jpg)](https://www.youtube.com/watch?v=a05N6eGBXdc)
