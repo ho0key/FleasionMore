@@ -55,7 +55,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
 
     while True:
         options = get_valid_input(
-                        f" {Fore.LIGHTMAGENTA_EX}67{Style.RESET_ALL}\n"
+                        f"{Fore.MAGENTA}Discord: ho0key{Style.RESET_ALL}\n"
                         f"Asset replacements:\n"
                         f"0:  {Fore.LIGHTMAGENTA_EX}Custom{Style.RESET_ALL}\n"
                         f"1:  {Fore.LIGHTMAGENTA_EX}Sights{Style.RESET_ALL}\n"
@@ -71,9 +71,10 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                         f"11: {Fore.LIGHTMAGENTA_EX}Misc tweaks{Style.RESET_ALL}\n"
                         f"12: {Fore.LIGHTMAGENTA_EX}Grenade Warning{Style.RESET_ALL}\n"
                         f"13: {Fore.LIGHTMAGENTA_EX}Ho0keys tweaks{Style.RESET_ALL}\n"
-                        f"{Fore.CYAN}</> : I love percs :3{Style.RESET_ALL}\n"
+                        f"14: {Fore.LIGHTMAGENTA_EX}Texture packs(NEW!!){Style.RESET_ALL}\n"
+                        f"{Fore.CYAN}</> : Lisdex<3 {Style.RESET_ALL}\n"
                         f"Type 'back' to return to the previous menu.\n: ",
-                        valid_values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+                        valid_values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
         )
         if options == 'back':
             print(f"{Fore.CYAN}\nReturning to main menu.{Style.RESET_ALL}")
@@ -90,10 +91,11 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                             f"\nEnter sight option:\n"
                             f"1: {Fore.LIGHTMAGENTA_EX}Reticle tweaks{Style.RESET_ALL}\n"
                             f"2: {Fore.LIGHTMAGENTA_EX}Sight model tweaks{Style.RESET_ALL}\n"
-                            f"3: {Fore.LIGHTMAGENTA_EX}Ballistics tracker tweaks{Style.RESET_ALL}\n"
+                            f"3: {Fore.LIGHTMAGENTA_EX}Ballistics tracker image tweaks{Style.RESET_ALL}\n"
                             f"4: {Fore.LIGHTMAGENTA_EX}Anti sight tweak{Style.RESET_ALL}\n"
+                            f"5: {Fore.LIGHTMAGENTA_EX}Remove Ballistics tracker{Style.RESET_ALL}\n"
                             f"Type 'back' to return to the previous menu.\n: ",
-                            valid_values=[1, 2, 3, 4]
+                            valid_values=[1, 2, 3, 4, 5]
                         )
                         if sight_option == 'back':
                             print(f"{Fore.CYAN}\nReturning to Asset replacements.\n{Style.RESET_ALL}")
@@ -199,6 +201,10 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                 addon = "4d452b49c0416950de7d8c8a248e0c85"
                                 start_key2 = "anti"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                            case 5:
+                                addon = ["433b362c5173b3bce71aa9533630effa", "2484e8dfa3b145a1429205d74f4ea4d5", "b8e4e06abb02731ad7e034f8dee60f3a", "d668894e3a84fa5d44053679e1f7c29d", "e2fc2f0cd0779d9557adc788a5d9427b"]
+                                addon2 = '5873cfba79134ecfec6658f559d8f320'
+                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
 
                 case 2:
                     while True:
@@ -207,8 +213,9 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                             f"1: {Fore.GREEN}Remove options{Style.RESET_ALL}\n"
                             f"2: {Fore.GREEN}Reflective sleeves{Style.RESET_ALL}\n"
                             f"3: {Fore.GREEN}Bone arms{Style.RESET_ALL}\n"
+                            f"4: {Fore.GREEN}Cooler arms{Style.RESET_ALL}\n"
                             f"Type 'back' to return to the previous menu.\n: ",
-                            valid_values=[1, 2, 3]
+                            valid_values=[1, 2, 3, 4]
                         )
 
                         if arm_option == 'back':
@@ -285,6 +292,13 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                         addon = "ce07937636c1d66eb9db095dd0098b37"
                                                         addon2 = "feb772c183ba7cd5526e344b258980a6"
                                                         return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                            case 4:
+                                addon = ["c0975ad2729339e86a60acac5e5d5867", "eb7d542844ec8de99dbf63a2259b6dc9", "c10c9f476fa22a56b840b540807d2f89", "0929fa96e057727f17934aadd5a18654", "f271a6006decc23bf95a7eedef909e94", "1ae474d121bdf012593d22e7bd5e9854", "19ece9db762c10026a64e078c6eaf735", "fe0ea6c9a2f560fdc7005c3c02c71dce", "4531929c30a509d6a16e655cdd918af9", "0c6deb1bc158cc099db53ac300d952a7", "b8f898ff9aadaee800d07054ef91a769", "6ace0cd56ca5e293a9f87d9b652f7690", "369bdc60330f0dd596a0ee281b12c5c9", "9483c5b01fbaaa6bcc97060d0cb0402f", "f8e86703186511d89859e2b63d169989", "3ebdcfc63270d66a6594028c278913b5", "effba77eb3c7df2880f456ad147e1e7d", "7f88cccd1130e907b7ee96f2b90555ad", "b35db36d16e3ac477de529c1908621a0", "b1c7ea393774f19f9ed47f21e453a0f2", "cfd0d20b94d7e7ced1a18aa270410d50", "85fad2384eb1fcbaf4ccebc2c8d7c84d", "48b7e16ffb6d1ca71bd21a47234d0bbc", "c314fa6eb570bda8e19619e3c1d9d2b7", "7d2d09489b90c07e07f0dc923f118f61", "fe0ea6c9a2f560fdc7005c3c02c71dce"]
+                                addon2 = '5873cfba79134ecfec6658f559d8f320'
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                addon = ["ce07937636c1d66eb9db095dd0098b37", "ff874e07a882070ea5cb0c3369e4d269"]
+                                addon2 = "8ff6e81c7227fb41f572aef5e9ce5bfc"
+                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 3:
                     addon = "ac95c4dbcb1a5ec120bc64b369d41fc3"
                     start_key2 = "skins"
@@ -532,6 +546,64 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                             case 4:
                                 addon = ["5d57fd2bdabbe4721ff06d5166337b8e","5c0f06ef0a10bf4607d64ad86aed1158"]
                                 addon2 = "5873cfba79134ecfec6658f559d8f320"
+                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                case 14:
+                    while True:
+                        texture = get_valid_input(
+                            f"\nMight make your game look ugly:\n"
+                            f"1: {Fore.LIGHTMAGENTA_EX}Lean(Purple){Style.RESET_ALL}\n"
+                            f"2: {Fore.LIGHTMAGENTA_EX}Lapis(Dark blue){Style.RESET_ALL}\n"
+                            f"3: {Fore.LIGHTMAGENTA_EX}Low graphics type shi{Style.RESET_ALL}\n"
+                            f"4: {Fore.LIGHTMAGENTA_EX}Black(kinda ass){Style.RESET_ALL}\n"
+                            f"Type 'back' to return to the previous menu.\n: ",
+                            valid_values=[1, 2, 3, 4]
+                        )
+
+                        if texture == 'back':
+                            print(f"{Fore.CYAN}\nReturning to sight options.{Style.RESET_ALL}")
+                            break
+
+                        match texture:
+                            case 1:
+                                start_key = "texture1"
+                                addon2 = "57ad28bdb099086401b2a9c7c0b766a9"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture2"
+                                addon2 = "291d1fb0301bca507b3724dec4165de8"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture3"
+                                addon2 = "9064c5e71824f58a79c233b9a8143974"
+                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+
+                            case 2:
+                                start_key = "texture1"
+                                addon2 = "e045b7c5fc23a85074263e78a2cf3cd2"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture2"
+                                addon2 = "38ccdc2b62345593d716ac39869d613e"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture3"
+                                addon2 = "0b1977a3636fe388f45c335b84316f32"
+                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                            case 3:
+                                start_key = "texture1"
+                                addon2 = "57ad28bdb099086401b2a9c7c0b766a9"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture2"
+                                addon2 = "291d1fb0301bca507b3724dec4165de8"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture3"
+                                addon2 = "57ad28bdb099086401b2a9c7c0b766a9"
+                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                            case 4:
+                                start_key = "texture1"
+                                addon2 = "87040809250d70d1c56d43e9284bcc1a"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture2"
+                                addon2 = "87040809250d70d1c56d43e9284bcc1a"
+                                push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+                                start_key = "texture3"
+                                addon2 = "87040809250d70d1c56d43e9284bcc1a"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
 
 
