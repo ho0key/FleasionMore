@@ -2,7 +2,7 @@
   Fleasion+
 </h1>
 
-#fleasion but with some additions:<br/>
+# Fleasion but with some additions:<br/>
  • PF quick access option<br/>
  • Texture packs(changes texture colors)<br/>
  • Remove kosaku model<br/>
