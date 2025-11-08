@@ -7,6 +7,9 @@ then copy them into:
 fleasionMore/assets/games/phantom forces/cached_files
 you also need to copy the files inside "fleasionMore/assets/games/phantom forces/custom" over to  cached_files  
 DONE!!
+Video tutorial:
+[![Video tutorial](https://img.youtube.com/vi/a05N6eGBXdc/hqdefault.jpg)](https://www.youtube.com/watch?v=a05N6eGBXdc)
+
 
 if you want anything added or got any issues feel free to dm me
 discord: ho0key
